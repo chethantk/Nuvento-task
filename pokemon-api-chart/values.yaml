@@ -4,16 +4,16 @@ image:
   tag: latest
 
 service:
-  type: ClusterIP  # Set to "ClusterIP", "NodePort", or "LoadBalancer" based on your needs
+  type: ClusterIP  
   port: 8080
 
 ingress:
-  enabled: false  # Set to true if using Ingress
+  enabled: false  
 
 
 serviceAccount:
-  create: true  # Ensure this field exists
+  create: true  
 
 autoscaling:
-  enabled: false  # Set to true if using Horizontal Pod Autoscaler (HPA)
+  enabled: false  
 
