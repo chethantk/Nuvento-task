@@ -1,0 +1,19 @@
+image:
+  repository: chethantk/pokemon-scanner-alpine
+  pullPolicy: IfNotPresent
+  tag: latest
+
+service:
+  type: ClusterIP  # Set to "ClusterIP", "NodePort", or "LoadBalancer" based on your needs
+  port: 8080
+
+ingress:
+  enabled: false  # Set to true if using Ingress
+
+
+serviceAccount:
+  create: true  # Ensure this field exists
+
+autoscaling:
+  enabled: false  # Set to true if using Horizontal Pod Autoscaler (HPA)
+
