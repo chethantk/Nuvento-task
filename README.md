@@ -4,7 +4,7 @@ Description
 GitHub Repository Link
 
 1. Pokémon API Scanner Python script
-GitHub - Scenario 1 (https://github.com/chethantk/pokemon-api-scanner)
+GitHub - Scenario 1 (https://github.com/chethantk/Nuvento-task/blob/master/pokemon_scanner.py)
 2. Dockerized version of the scanner using Alpine Linux
 GitHub - Scenario 2 (https://github.com/chethantk/Nuvento-task/blob/master/Dockerfile)
 3. Helm chart to deploy scanner on Minikube
